@@ -1,11 +1,13 @@
 # Projeto Estrutura MVC
 
-Aqui estão alocados todos os arquivos e scripts necessários para a formação de uma estrutura MVC!
+Segunda parte de duas de um estudo de modelos MVC utilizando PHP.
 
-<img src="public/images/Screenshot_1.png">
+# O projeto
 
-## Método de Uso
+Ele consiste em um sistema de gerenciamento de fluxo de caixa empresarial utilizando uma ferramenta de estudos me fornecido na faculdade. Seu diferencial do ultimo projeto de estudo consiste em uma tela de login e o cadastro de "tipos de utilizadores" do sistema, sendo ele dividido em três niveis e cada um com suas funcionalidades liberadas:
 
-* Fazer o download dos arquivos
+- Administrador -> Nivel no qual possui acesso geral as funções do site
+- gerente -> Nivel que se limita a fazer os lançamentos e os relatorios
+- Funcionario -> limitado apenas a fazer relatorios
 
-* Nos arquivos "config.php" e "public/js/libs.js" mudar trajetória para o caminho desejado. Por exemplo: "http://localhost/estagio/MVC/"
+Consiste em um crud (create, read, update, delete) utilizando a busca no banco de dados com axios, php para gerenciamento do Back-end e javascript para as funções do Front-end.
